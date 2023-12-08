@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("istockphoto-1140461954-612x612.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+  
+}
+
+.container{
+background: rgba(122, 115, 198, 0.8);
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+}
+.login-box {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 400px;
+padding: 40px;
+transform: translate(-50%, -50%);
+background: rgba(135, 135, 151, 0.413);
+box-sizing: border-box;
+box-shadow: 0 15px 25px rgba(186, 180, 180, 0.6);
+border-radius: 10px;
+}
+.login-box{
+text-align:center;
+transition: transform 0.3s ease-in-out;
+}
+.login-box h2{
+margin:20px;
+}
+.login-box form{
+display: 10px;
+margin: 5px 0;
+border: 1px solid #5f5858;
+border-radius: 12px;
+}
+.login-box button{
+padding: 10px;
+background-color: #4c4f52;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease-in-out;
+}
+.login-box button:hover{
+background-color: #4a4b4c;
+}
+.login-container.active.login-box{
+transform: translate(-20px);
+}
+
+
+
+.button-list {
+list-style: none;;
+padding: 0;
+margin: 0;
+display: flex;; 
+}
+
+
+.button-container {
+position: relative;
+}
+
+
+.button-list {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+ 
+padding: 10px; 
+position: absolute;
+top: 0;
+left: 0;
+}
+
+
+.button-list li {
+margin-right: 10px; 
+}
+
+.button {
+padding: 10px 20px;
+background-color: #5a5d60;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.button:hover {
+background-color: #38393a; 
+}
+
+

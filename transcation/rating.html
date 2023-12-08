@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating</title>
+    <link rel="stylesheet" href="stylerating.css">
+</head>
+<body>
+    <body>
+        <ul class="button-list">
+            <li><button class="button">Insert</button></li>
+            <li><button class="button">Delete</button></li>
+            <li><button class="button">Update</button></li>
+            <li><button class="button">Select</button></li>
+        </ul>
+    </body>
+    <form>
+       <div class="login-container">
+        <div class="login-box">
+            <h2>Rating Form</h2>
+            <div>
+                <label>Feedback ID: &nbsp;&nbsp;</label>
+                <input type="text" name="Feedback_id" maxlength="30" required id="">
+            </div>
+            <div>
+                <label>Booking ID: &nbsp; &nbsp;</label>
+                <input type="text" name="Booking_id" maxlength="30" required id="">
+            </div>
+            <div>
+                <label>Rating:</label>
+                <input type="number" name="Rating" maxlength="30" min="1" max="5" required id="">
+
+            </div>
+            <div>
+                <label>Driver ID: &nbsp; &nbsp; &nbsp;</label>
+                <input type="text" name="Driver_id" maxlength="30"  required id="">
+
+            </div>
+            <div>
+                <label>Comments:</label><br>
+                <input type="text" name="Comments" rows="4" cols="50" maxlength="30" required id="">
+            </div>
+            <div>
+                <button type="submit">Login</button>
+            </div>
+        </div>
+       </div> 
+    </form>
+</body>
+</html>

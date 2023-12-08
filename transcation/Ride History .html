@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ride history</title>
+    <link rel="stylesheet" href="stylehistory.css">
+</head>
+<body>
+    <body>
+        <ul class="button-list">
+            <li><button class="button">Insert</button></li>
+            <li><button class="button">Delete</button></li>
+            <li><button class="button">Update</button></li>
+            <li><button class="button">Select</button></li>
+        </ul>
+    </body>
+    
+    <form>
+        
+            
+        
+        <div class="login-container">
+            <div class="login-box">
+            <h2>Ride History</h2>
+           <div>
+              <label>Ride History ID: &nbsp;&nbsp;&nbsp;</label>
+              <input type="text"  name="RideHistoryID" maxlength="50" required id="">
+
+            </div>
+            <div>
+                <label>Customer ID: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                 <input type="text" name="customerID" maxlength="50" required id="">
+            </div>
+            <div>
+                <label>Driver ID: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="driverID" maxlength="50" required id="">
+            </div>
+            <div>
+                <label>Start Location ID: &nbsp;</label>
+                <input type="text"  name="startLocationID" maxlength="50" required id="">
+            </div>
+             <div>
+                <label>End Location ID: &nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="endLocationID" maxlength="50" required id="">
+            </div>
+            <div>
+               <label >Ride Date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</label>
+               <input type="datetime-local"  name="rideDate"  maxlength="50" required id="">
+            </div>
+            <div>
+                <label >Fare: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="fare" maxlength="50" required id="">
+            </div>
+            <div>
+                <label>Payment Method ID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text"  name="paymentMethodID" maxlength="50" required id="">
+            </div>
+            <div>
+               <button type="submit">Login</button>
+            </div>
+
+        </div>
+        </div> 
+    </form>            
+</body>
+</html>
