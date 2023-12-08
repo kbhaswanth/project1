@@ -1,0 +1,2 @@
+mongodb+srv://bdpkumar19:<password>@bhaswanth.ltqijtf.mongodb.net/
+mongodb+srv://kbhaswanth2003:<password>@cluster1.ltqijtf.mongodb.net/
